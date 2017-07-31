@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		723A51321F2B374D00961D98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 723A51311F2B374D00961D98 /* main.m */; };
+		72877B661F2E363500273C9E /* NSString+NumberConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 72877B651F2E363500273C9E /* NSString+NumberConvenience.m */; };
+		72877B691F2E3D2500273C9E /* TrafficDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 72877B681F2E3D2500273C9E /* TrafficDepartment.m */; };
+		72877B721F2EBBE700273C9E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 72877B711F2EBBE700273C9E /* Car.m */; };
+		72877B781F2EBCE800273C9E /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 72877B771F2EBCE800273C9E /* Engine.m */; };
+		72877B7B1F2EBCFD00273C9E /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 72877B7A1F2EBCFD00273C9E /* Tire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,18 @@
 /* Begin PBXFileReference section */
 		723A512E1F2B374D00961D98 /* oc_bestpratice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oc_bestpratice; sourceTree = BUILT_PRODUCTS_DIR; };
 		723A51311F2B374D00961D98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72877B641F2E363500273C9E /* NSString+NumberConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberConvenience.h"; sourceTree = "<group>"; };
+		72877B651F2E363500273C9E /* NSString+NumberConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberConvenience.m"; sourceTree = "<group>"; };
+		72877B671F2E3D2500273C9E /* TrafficDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficDepartment.h; sourceTree = "<group>"; };
+		72877B681F2E3D2500273C9E /* TrafficDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficDepartment.m; sourceTree = "<group>"; };
+		72877B6D1F2E3E0900273C9E /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		72877B701F2EBBE700273C9E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		72877B711F2EBBE700273C9E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		72877B731F2EBC5800273C9E /* PolutionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolutionSource.h; sourceTree = "<group>"; };
+		72877B761F2EBCE800273C9E /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		72877B771F2EBCE800273C9E /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		72877B791F2EBCFD00273C9E /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		72877B7A1F2EBCFD00273C9E /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,18 @@
 			isa = PBXGroup;
 			children = (
 				723A51311F2B374D00961D98 /* main.m */,
+				72877B641F2E363500273C9E /* NSString+NumberConvenience.h */,
+				72877B651F2E363500273C9E /* NSString+NumberConvenience.m */,
+				72877B671F2E3D2500273C9E /* TrafficDepartment.h */,
+				72877B681F2E3D2500273C9E /* TrafficDepartment.m */,
+				72877B6D1F2E3E0900273C9E /* Vehicle.h */,
+				72877B701F2EBBE700273C9E /* Car.h */,
+				72877B711F2EBBE700273C9E /* Car.m */,
+				72877B731F2EBC5800273C9E /* PolutionSource.h */,
+				72877B761F2EBCE800273C9E /* Engine.h */,
+				72877B771F2EBCE800273C9E /* Engine.m */,
+				72877B791F2EBCFD00273C9E /* Tire.h */,
+				72877B7A1F2EBCFD00273C9E /* Tire.m */,
 			);
 			path = oc_bestpratice;
 			sourceTree = "<group>";
@@ -120,7 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72877B7B1F2EBCFD00273C9E /* Tire.m in Sources */,
+				72877B691F2E3D2500273C9E /* TrafficDepartment.m in Sources */,
+				72877B661F2E363500273C9E /* NSString+NumberConvenience.m in Sources */,
+				72877B721F2EBBE700273C9E /* Car.m in Sources */,
 				723A51321F2B374D00961D98 /* main.m in Sources */,
+				72877B781F2EBCE800273C9E /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +285,7 @@
 				723A51371F2B374D00961D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
